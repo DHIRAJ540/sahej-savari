@@ -1,0 +1,136 @@
+.contact_container {
+  width: 90%;
+  margin-inline: auto;
+  padding-bottom: 10rem;
+  max-width: 2000px;
+}
+
+.contact_header {
+  text-align: center;
+}
+
+.contact_header .header_upper h3 {
+  font-size: 1.7rem;
+}
+
+.contact_header .header_upper .line {
+  width: 50px;
+  height: 4px;
+  background: #ec9505;
+  border-radius: 5px;
+  margin-inline: auto;
+}
+
+.contact_main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  margin-top: 5rem;
+}
+
+.left {
+  width: 50%;
+}
+
+.contact_form {
+  width: 60%;
+  padding: 1rem;
+  -webkit-box-shadow: 2px 4px 15px rgba(0, 0, 0, 0.25);
+          box-shadow: 2px 4px 15px rgba(0, 0, 0, 0.25);
+}
+
+.contact_form .form_element {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 1.5rem;
+}
+
+.contact_form .form_element h6 {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.contact_form .form_element input {
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #ec9505;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.contact_form .primary_btn {
+  text-align: center;
+  padding: 0.6rem 1.2rem;
+  background: #ec9505;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+  color: #fff;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  margin-right: 2rem;
+  margin-top: 1.2rem;
+}
+
+.contact_form .primary_btn:hover {
+  background: white;
+  color: #ec9505;
+  outline: 1px solid #ec9505;
+}
+
+.contact_details {
+  margin-top: 2rem;
+}
+
+.contact_details div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.contact_details div p {
+  font-size: 1.3rem;
+  margin-left: 1rem;
+}
+
+.socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 2rem;
+}
+
+.socials img {
+  margin-right: 1.5rem;
+}
+
+.address {
+  margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.address p {
+  font-size: 1.2rem;
+  margin-left: 1rem;
+}
+/*# sourceMappingURL=contact.css.map */

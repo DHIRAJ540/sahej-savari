@@ -1,0 +1,87 @@
+.about_container {
+  width: 90%;
+  margin-inline: auto;
+  margin-top: 2rem;
+  max-width: 2000px;
+}
+
+.about_header {
+  text-align: center;
+}
+
+.about_header .header_upper h3 {
+  font-size: 1.7rem;
+}
+
+.about_header .header_upper .line {
+  width: 50px;
+  height: 4px;
+  background: #ec9505;
+  border-radius: 5px;
+  margin-inline: auto;
+}
+
+.about_header .header_down {
+  margin-top: 1rem;
+}
+
+.about_header .header_down h1 {
+  font-size: 3rem;
+}
+
+.about_header .header_down h1 span {
+  color: #ff4e00;
+  font-style: italic;
+}
+
+.about_left {
+  width: 50%;
+}
+
+.about_right {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+
+.about_right img {
+  width: 60%;
+}
+
+.about_main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.about_main .about_left h4 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.about_main .about_left p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.about_footer {
+  margin-top: 3rem;
+}
+
+.about_footer img {
+  width: 100%;
+}
+/*# sourceMappingURL=about.css.map */

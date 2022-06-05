@@ -1,0 +1,213 @@
+.products_container {
+  width: 90%;
+  margin-inline: auto;
+  margin-top: 2rem;
+  padding-bottom: 15rem;
+  max-width: 1300px;
+}
+
+.products_header {
+  text-align: center;
+}
+
+.products_header .header_upper h3 {
+  font-size: 1.7rem;
+}
+
+.products_header .header_upper .line {
+  width: 50px;
+  height: 4px;
+  background: #ec9505;
+  border-radius: 5px;
+  margin-inline: auto;
+}
+
+.products_main {
+  padding-top: 10rem;
+}
+
+.product_card {
+  padding: 1.5rem;
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 4px 15px rgba(0, 0, 0, 0.25);
+          box-shadow: 2px 4px 15px rgba(0, 0, 0, 0.25);
+  width: 30%;
+  position: relative;
+  height: 535px;
+  overflow: hidden;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  min-width: 515px;
+}
+
+.product_card .blob {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 0;
+}
+
+.product_card .card_upper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 406px;
+}
+
+.product_card .card_upper img {
+  z-index: 1;
+  margin-top: 2rem;
+}
+
+.product_card .card_lower {
+  margin-top: 1rem;
+}
+
+.product_card .card_lower h3 {
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+
+.product_card .card_lower .colors_section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 0.5rem;
+}
+
+.product_card .card_lower .colors_section h5 {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.product_card .card_lower .colors_section .colors {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.product_card .card_lower .colors_section .colors .color {
+  height: 20px;
+  width: 20px;
+  border-radius: 15px;
+  margin: 0 0.5rem;
+}
+
+.product_card .card_lower .colors_section .colors .color:nth-child(1) {
+  background-color: #24ff00;
+}
+
+.product_card .card_lower .colors_section .colors .color:nth-child(2) {
+  background-color: #ff0000;
+}
+
+.product_card .card_lower .colors_section .colors .color:nth-child(3) {
+  background-color: #ff8a00;
+}
+
+.product_card .card_lower .colors_section .colors .color:nth-child(4) {
+  background-color: #0038ff;
+}
+
+.product_card .card_lower .colors_section .colors .color:nth-child(5) {
+  background-color: #faff00;
+}
+
+.product_card .card_lower .colors_section .colors .color:nth-child(6) {
+  background-color: #000000;
+}
+
+.product_card .card_lower .colors_section .colors .color:nth-child(7) {
+  background-color: #a7a7a7;
+}
+
+.product_card:hover {
+  height: 692px;
+}
+
+.product_card:hover .card_features {
+  -webkit-transform: translateY(0%);
+          transform: translateY(0%);
+}
+
+.product_card:nth-child(2) .feature div {
+  background: #069ef4;
+}
+
+.product_card:nth-child(1) .feature div {
+  background: #ec9505;
+}
+
+.card_features {
+  margin-top: 0.5rem;
+  -webkit-transform: translateY(120%);
+          transform: translateY(120%);
+  -webkit-transition: all 0.3s ease 0.3s;
+  transition: all 0.3s ease 0.3s;
+}
+
+.card_features h2 {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.card_features .features_section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card_features .features_section .features .feature {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 0.7rem;
+}
+
+.card_features .features_section .features .feature div {
+  margin-right: 1rem;
+  height: 15px;
+  width: 15px;
+  border-radius: 20px;
+}
+
+.products_main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.products_main:nth-child(2) .product_card:nth-child(1) .feature div {
+  background: #6464f2;
+}
+
+.products_main:nth-child(2) .product_card:nth-child(2) .feature div {
+  background: #64ed87;
+}
+/*# sourceMappingURL=products.css.map */
