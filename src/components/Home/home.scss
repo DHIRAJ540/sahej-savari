@@ -181,3 +181,35 @@
     }
   }
 }
+
+// Media
+@media (max-width: 768px) {
+  .home_container {
+    flex-direction: column;
+    height: auto;
+    width: 95%;
+  }
+
+  .left_container {
+    width: 100%;
+    padding-right: 0;
+    margin-top: 3rem;
+  }
+  .right_container {
+    width: 100%;
+    padding-right: 0;
+  }
+  .bgright {
+    display: none;
+  }
+
+  .left_buttons {
+    width: 95%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .scroll-down {
+    display: none;
+  }
+}

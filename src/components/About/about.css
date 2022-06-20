@@ -84,4 +84,22 @@
 .about_footer img {
   width: 100%;
 }
+
+@media (max-width: 768px) {
+  .about_main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .about_left {
+    width: 95%;
+  }
+  .about_right {
+    width: 95%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 /*# sourceMappingURL=about.css.map */

@@ -210,4 +210,28 @@
 .products_main:nth-child(2) .product_card:nth-child(2) .feature div {
   background: #64ed87;
 }
+
+@media (max-width: 768px) {
+  .products_main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 2rem;
+  }
+  .product_card {
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
+    padding: 1rem;
+  }
+  .products_container {
+    padding-bottom: 0;
+  }
+}
 /*# sourceMappingURL=products.css.map */

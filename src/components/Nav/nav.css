@@ -95,4 +95,26 @@ a {
   color: #ff4e00;
   cursor: pointer;
 }
+
+@media (max-width: 768px) {
+  .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .nav-item {
+    padding: 0.5rem 0.5rem;
+    font-size: 0.85rem;
+  }
+  .nav-item h3 {
+    font-size: 0.85rem;
+  }
+  .header_down h1 {
+    text-align: center;
+  }
+  .left_main p {
+    text-align: center;
+  }
+}
 /*# sourceMappingURL=nav.css.map */

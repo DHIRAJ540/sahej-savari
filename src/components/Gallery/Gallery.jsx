@@ -23,8 +23,7 @@ const Gallery = () => {
         <section>
           <div className="video">
             <iframe
-              width="100%"
-              height="800px"
+              className="vid"
               src="https://www.youtube.com/embed/BiIqOO1YHJE"
             ></iframe>
           </div>

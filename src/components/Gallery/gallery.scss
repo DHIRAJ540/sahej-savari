@@ -47,3 +47,21 @@
 .video {
   margin-top: 2rem;
 }
+
+.vid {
+  width: 100%;
+  height: 800px;
+}
+
+@media (max-width: 768px) {
+  .vid {
+    height: 400px;
+  }
+
+  .gallery-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .grid-col-span2 {
+    display: none;
+  }
+}

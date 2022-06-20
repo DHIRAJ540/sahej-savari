@@ -133,4 +133,27 @@
   font-size: 1.2rem;
   margin-left: 1rem;
 }
+
+@media (max-width: 768px) {
+  .contact_main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contact_main .left {
+    width: 100%;
+  }
+  .contact_main .left .contact_form {
+    width: 95%;
+  }
+  .right {
+    width: 95%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .right img:nth-child(1) {
+    display: none;
+  }
+}
 /*# sourceMappingURL=contact.css.map */

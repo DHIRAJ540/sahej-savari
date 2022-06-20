@@ -70,3 +70,17 @@
     width: 100%;
   }
 }
+
+// Media
+@media (max-width: 768px) {
+  .about_main {
+    flex-direction: column;
+  }
+  .about_left {
+    width: 95%;
+  }
+  .about_right {
+    width: 95%;
+    justify-content: center;
+  }
+}

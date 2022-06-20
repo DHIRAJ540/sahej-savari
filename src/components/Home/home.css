@@ -223,4 +223,42 @@
   color: #ff4e00;
   font-style: italic;
 }
+
+@media (max-width: 768px) {
+  .home_container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+    width: 95%;
+  }
+  .left_container {
+    width: 100%;
+    padding-right: 0;
+    margin-top: 3rem;
+  }
+  .right_container {
+    width: 100%;
+    padding-right: 0;
+  }
+  .bgright {
+    display: none;
+  }
+  .left_buttons {
+    width: 95%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .scroll-down {
+    display: none;
+  }
+}
 /*# sourceMappingURL=home.css.map */

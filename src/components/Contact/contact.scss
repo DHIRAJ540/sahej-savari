@@ -111,3 +111,27 @@
     margin-left: 1rem;
   }
 }
+
+// Media
+@media (max-width: 768px) {
+  .contact_main {
+    flex-direction: column;
+
+    .left {
+      width: 100%;
+
+      .contact_form {
+        width: 95%;
+      }
+    }
+  }
+
+  .right {
+    width: 95%;
+    object-fit: cover;
+  }
+
+  .right img:nth-child(1) {
+    display: none;
+  }
+}

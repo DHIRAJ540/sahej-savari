@@ -191,3 +191,19 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .products_main {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+  }
+  .product_card {
+    transform: scale(0.7);
+    padding: 1rem;
+  }
+  .products_container {
+    padding-bottom: 0;
+  }
+}
