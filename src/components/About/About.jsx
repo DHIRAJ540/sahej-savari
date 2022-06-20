@@ -9,13 +9,8 @@ const About = () => {
       <div className="about_container">
         <div className="about_header">
           <div className="header_upper">
-            <h3>ABOUT</h3>
+            <h3>About Sahej</h3>
             <div className="line"></div>
-          </div>
-          <div className="header_down">
-            <h1>
-              INDIA'S <span>NO.1</span> E-RIKSHAW
-            </h1>
           </div>
         </div>
         <div className="about_main">
@@ -34,6 +29,18 @@ const About = () => {
               which makes us stand apart from rest of the crowd and we intend to
               expand our footprint across entire India to promote eco-friendly
               transportation and hand over a better world to our future!
+            </p>
+            <p>
+              The JBL Group, owner of the brand Sahej Savari, is an organization
+              which works on the principles of ethics and morality with
+              “customer first” mindset. Its founders believe that the next era
+              of growth will be based on sustainability practices.
+            </p>
+            <p>
+              The company is committed to provide the intracity commuters a
+              unique and wonderful experience in their last mile journeys In
+              this quest, the company plans to partner with dealers across India
+              and thus help transition into an eco-friendly world
             </p>
           </div>
           <div className="about_right">

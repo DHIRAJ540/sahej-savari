@@ -22,7 +22,7 @@ const Products = () => {
         </div>
         <div className="product_cards_section">
           <div className="products_main">
-            <div className="product_card">
+            <div id="gold" className="product_card">
               <img src={blob1} alt="blob1" className="blob" />
               <div className="card_upper">
                 <img src={rik1} alt="" />
@@ -39,6 +39,9 @@ const Products = () => {
                     <div className="color"></div>
                     <div className="color"></div>
                     <div className="color"></div>
+                    <p style={{ marginLeft: "1rem" }}>
+                      Metailc variants available
+                    </p>
                   </div>
                 </div>
               </div>
@@ -48,49 +51,49 @@ const Products = () => {
                   <div className="features">
                     <div className="feature">
                       <div></div>
-                      <p>Solid chassis body</p>
+                      <p>Double Platform Chassis</p>
                     </div>
                     <div className="feature">
                       <div></div>
-                      <p>Wide front glassy</p>
+                      <p>Wide Front Glass</p>
                     </div>
                     <div className="feature">
                       <div></div>
-                      <p>FM with double speaker</p>
+                      <p>Heavy Duty Shockers</p>
                     </div>
                     <div className="feature">
                       <div></div>
-                      <p>Central locking</p>
+                      <p>FM Radio with Double Speakers</p>
                     </div>
                   </div>
                   <div className="features">
                     <div className="feature">
                       <div></div>
-                      <p>Solid chassis body</p>
+                      <p>Stepney with Cover</p>
                     </div>
                     <div className="feature">
                       <div></div>
-                      <p>Wide front glass</p>
+                      <p>Central Locking</p>
                     </div>
                     <div className="feature">
                       <div></div>
-                      <p>FM with double speaker</p>
+                      <p>LED Cabin Light</p>
                     </div>
                     <div className="feature">
                       <div></div>
-                      <p>Central locking</p>
+                      <p>Heavy Curtains</p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="product_card">
+            <div id="diamond" className="product_card">
               <img src={blob2} alt="blob1" className="blob" />
               <div className="card_upper">
                 <img src={rik2} alt="" />
               </div>
               <div className="card_lower">
-                <h3>SILVER</h3>
+                <h3>DIAMOND</h3>
                 <div className="colors_section">
                   <h5>Colors:</h5>
                   <div className="colors">
@@ -101,6 +104,9 @@ const Products = () => {
                     <div className="color"></div>
                     <div className="color"></div>
                     <div className="color"></div>
+                    <p style={{ marginLeft: "1rem" }}>
+                      Metailc variants available
+                    </p>
                   </div>
                 </div>
               </div>
@@ -110,37 +116,37 @@ const Products = () => {
                   <div className="features">
                     <div className="feature">
                       <div></div>
-                      <p>Solid chassis body</p>
+                      <p>Double Platform Chassis</p>
                     </div>
                     <div className="feature">
                       <div></div>
-                      <p>Wide front glassy</p>
+                      <p>Alloy Rim</p>
                     </div>
                     <div className="feature">
                       <div></div>
-                      <p>FM with double speaker</p>
+                      <p>Wide Front Glass with Wiper</p>
                     </div>
                     <div className="feature">
                       <div></div>
-                      <p>Central locking</p>
+                      <p>Heavy Duty Shockers</p>
                     </div>
                   </div>
                   <div className="features">
                     <div className="feature">
                       <div></div>
-                      <p>Solid chassis body</p>
+                      <p>FM Radio with Double Speakers</p>
                     </div>
                     <div className="feature">
                       <div></div>
-                      <p>Wide front glass</p>
+                      <p>Central Locking</p>
                     </div>
                     <div className="feature">
                       <div></div>
-                      <p>FM with double speaker</p>
+                      <p>Fan and Carrier</p>
                     </div>
                     <div className="feature">
                       <div></div>
-                      <p>Central locking</p>
+                      <p>CLED Cabin Light and Roof Light</p>
                     </div>
                   </div>
                 </div>
@@ -148,13 +154,13 @@ const Products = () => {
             </div>
           </div>
           <div className="products_main">
-            <div className="product_card">
+            <div id="goldss" className="product_card">
               <img src={blob3} alt="blob1" className="blob" />
               <div className="card_upper">
                 <img src={rik3} alt="" />
               </div>
               <div className="card_lower">
-                <h3>PLATINUM</h3>
+                <h3>GOLD SS</h3>
                 <div className="colors_section">
                   <h5>Colors:</h5>
                   <div className="colors">
@@ -165,6 +171,9 @@ const Products = () => {
                     <div className="color"></div>
                     <div className="color"></div>
                     <div className="color"></div>
+                    <p style={{ marginLeft: "1rem" }}>
+                      Metailc variants available
+                    </p>
                   </div>
                 </div>
               </div>
@@ -174,43 +183,43 @@ const Products = () => {
                   <div className="features">
                     <div className="feature">
                       <div></div>
-                      <p>Solid chassis body</p>
+                      <p>Stainless Steel Body</p>
                     </div>
                     <div className="feature">
                       <div></div>
-                      <p>Wide front glassy</p>
+                      <p>Double Platform Chassis</p>
                     </div>
                     <div className="feature">
                       <div></div>
-                      <p>FM with double speaker</p>
+                      <p>Wide Front Glass</p>
                     </div>
                     <div className="feature">
                       <div></div>
-                      <p>Central locking</p>
+                      <p>Heavy Duty Shockers</p>
                     </div>
                   </div>
                   <div className="features">
                     <div className="feature">
                       <div></div>
-                      <p>Solid chassis body</p>
+                      <p>FM Radio with Double Speakers</p>
                     </div>
                     <div className="feature">
                       <div></div>
-                      <p>Wide front glass</p>
+                      <p>Stepney with Cover</p>
                     </div>
                     <div className="feature">
                       <div></div>
-                      <p>FM with double speaker</p>
+                      <p>Central Locking</p>
                     </div>
                     <div className="feature">
                       <div></div>
-                      <p>Central locking</p>
+                      <p>LED Cabin Light</p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="product_card">
+            <div id="loader" className="product_card">
               <img src={blob4} alt="blob1" className="blob" />
               <div className="card_upper">
                 <img src={rik4} alt="" />
@@ -227,6 +236,9 @@ const Products = () => {
                     <div className="color"></div>
                     <div className="color"></div>
                     <div className="color"></div>
+                    <p style={{ marginLeft: "1rem" }}>
+                      Metailc variants available
+                    </p>
                   </div>
                 </div>
               </div>
@@ -236,37 +248,37 @@ const Products = () => {
                   <div className="features">
                     <div className="feature">
                       <div></div>
-                      <p>Solid chassis body</p>
+                      <p>Double Platform Chassis</p>
                     </div>
                     <div className="feature">
                       <div></div>
-                      <p>Wide front glassy</p>
+                      <p>Wide Front Glass</p>
                     </div>
                     <div className="feature">
                       <div></div>
-                      <p>FM with double speaker</p>
+                      <p>Heavy Duty Shockers</p>
                     </div>
                     <div className="feature">
                       <div></div>
-                      <p>Central locking</p>
+                      <p>FM Radio with Double Speakers</p>
                     </div>
                   </div>
                   <div className="features">
                     <div className="feature">
                       <div></div>
-                      <p>Solid chassis body</p>
+                      <p>Central Locking</p>
                     </div>
                     <div className="feature">
                       <div></div>
-                      <p>Wide front glass</p>
+                      <p>Waterproof Throttle</p>
                     </div>
                     <div className="feature">
                       <div></div>
-                      <p>FM with double speaker</p>
+                      <p>LED Cabin Light</p>
                     </div>
                     <div className="feature">
                       <div></div>
-                      <p>Central locking</p>
+                      <p>Tool Kit</p>
                     </div>
                   </div>
                 </div>

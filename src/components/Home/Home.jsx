@@ -4,6 +4,7 @@ import "./home.scss";
 import bgright from "../../assets/img/bgright.svg";
 import rikshaw1 from "../../assets/img/rikshaw1.png";
 import rikshaw2 from "../../assets/img/rikshaw2.png";
+import rikshawg from "../../assets/img/rik_g.png";
 
 const Home = () => {
   return (
@@ -11,13 +12,16 @@ const Home = () => {
       <div className="home_container">
         <div className="left_container">
           <div className="left_main">
-            <h3>Welcome to</h3>
-            <h1>SAHEJ SAVARI</h1>
+            <div className="header_down">
+              <h1>
+                INDIA'S <span>NO.1</span> E-RIKSHAW
+              </h1>
+            </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-              eius earum odit quisquam quam architecto vel a? Quod, molestias?
-              Minus quis eveniet laboriosam dolorem neque!
+              Your search for top quality EV rickshaw and flawless customer
+              service ends here!
             </p>
+            <p>वारंटी का वादा, कम कीमत और माइलेज ज्यादा</p>
           </div>
           <div className="left_buttons">
             <a href="#products">
@@ -33,7 +37,7 @@ const Home = () => {
           <img className="bgright" src={bgright} alt="" />
           <div className="images_container">
             <div className="images">
-              <img src={rikshaw1} alt="rikshaw2" />
+              <img src={rikshawg} alt="rikshaw2" />
             </div>
           </div>
         </div>

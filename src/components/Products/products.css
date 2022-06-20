@@ -102,7 +102,7 @@
 
 .product_card .card_lower .colors_section .colors .color {
   height: 20px;
-  width: 20px;
+  width: 28px;
   border-radius: 15px;
   margin: 0 0.5rem;
 }
@@ -136,7 +136,7 @@
 }
 
 .product_card:hover {
-  height: 692px;
+  height: 730px;
 }
 
 .product_card:hover .card_features {
