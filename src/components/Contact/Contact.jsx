@@ -1,7 +1,8 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import "./contact.scss";
 import details from "../../../config";
+import Select from "react-select";
 
 import instaIcon from "../../assets/img/insta.svg";
 import facebookIcon from "../../assets/img/facebook.svg";
@@ -12,21 +13,13 @@ import locationIcon from "../../assets/img/location.svg";
 import mapImg from "../../assets/img/map.png";
 
 const Contact = () => {
-  const form = useRef();
+  const options = [
+    { value: "Prospective Dealer", label: "Prospective Dealer" },
+    { value: "Customer", label: "Customer" },
+  ];
 
-  const sendEmail = (e) => {
-    e.preventDefault();
-    console.log("hi");
+  const [type, setType] = useState("Customer");
 
-    emailjs.sendForm(details.USER_ID, details.TEMPLATE_ID, form.current).then(
-      (result) => {
-        console.log(result.text);
-      },
-      (error) => {
-        console.log(error.text);
-      }
-    );
-  };
   return (
     <div className="contact" id="contact">
       <div className="contact_container">
@@ -38,27 +31,118 @@ const Contact = () => {
         </div>
         <div className="contact_main">
           <div className="left">
-            <form className="contact_form">
-              <div className="form_element">
-                <h6 htmlFor="name">Name</h6>
-                <input type="text" />
+            <form
+              target="_blank"
+              action="https://formsubmit.co/salesjaisik@gmail.com"
+              method="POST"
+              className="contact_form"
+            >
+              <div class="form-group">
+                <div class="form-row">
+                  <div class="col form_element">
+                    <h6 htmlFor="name" style={{ marginBottom: "1rem" }}>
+                      You are a
+                    </h6>
+
+                    <Select
+                      onChange={(e) => setType(e.value)}
+                      options={options}
+                    />
+                  </div>
+                  <div class="col" style={{ display: "none" }}>
+                    <input
+                      type="text"
+                      name="type"
+                      class="form-control"
+                      value={type}
+                    />
+                  </div>
+                  <div class="col form_element">
+                    <h6 htmlFor="name">Name</h6>
+
+                    <input
+                      type="text"
+                      name="name"
+                      class="form-control"
+                      required
+                    />
+                  </div>
+                  <div class="col form_element">
+                    <h6 htmlFor="name">E-mail</h6>
+
+                    <input
+                      type="email"
+                      name="email"
+                      class="form-control"
+                      required
+                    />
+                  </div>
+                  <div class="col form_element">
+                    <h6 htmlFor="number">Phone number</h6>
+
+                    <input
+                      type="number"
+                      name="number"
+                      class="form-control"
+                      required
+                    />
+                  </div>
+                  <div class="col form_element">
+                    <h6 htmlFor="name">Message</h6>
+
+                    <input
+                      type="text"
+                      name="message"
+                      class="form-control"
+                      required
+                    />
+                  </div>
+                </div>
               </div>
-              <div className="form_element">
-                <h6 htmlFor="name">E-mail</h6>
-                <input type="email" />
-              </div>
-              <div className="form_element">
-                <h6 htmlFor="name">Number</h6>
-                <input type="number" />
-              </div>
-              <div className="form_element">
-                <h6 htmlFor="name">Message</h6>
-                <input type="text" />
+
+              <button type="submit" class="primary_btn">
+                Submit Form
+              </button>
+            </form>
+            {/* <form
+              target="_blank"
+              action="https://formsubmit.co/dhirajsubudhi540@gmail.com"
+              method="POST"
+              className="contact_form"
+            >
+              <div className="form-group">
+                <div className="form_element">
+                  <h6
+                    htmlFor="name"
+                    style={{ marginBottom: "1rem" }}
+                    onChange={(e) => setType(e.value)}
+                  >
+                    You are a
+                  </h6>
+                  <Select options={options} />
+                </div>
+                <div className="form_element">
+                  <h6 htmlFor="name">Name</h6>
+                  <input type="text" className="form-control" />
+                </div>
+                <div className="form_element">
+                  <h6 htmlFor="name">E-mail</h6>
+                  <input type="email" className="form-control" />
+                </div>
+                <div className="form_element">
+                  <h6 htmlFor="name">Number</h6>
+                  <input type="number" className="form-control" />
+                </div>
+                <div className="form_element">
+                  <h6 htmlFor="name">Message</h6>
+                  <input type="text" className="form-control" />
+                </div>
               </div>
               <button className="primary_btn" type="submit">
                 Submit
               </button>
-            </form>
+            </form> */}
+
             <div className="contact_details">
               <div>
                 <img src={phoneIcon} alt="" />
